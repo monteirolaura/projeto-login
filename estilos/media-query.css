@@ -33,7 +33,7 @@
         
         background-image: linear-gradient(to top, #49a09d, #592a79);
     }
-    
+
     section#login {
         width: 950px;
     
@@ -41,20 +41,23 @@
 
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulário {
-        float: right;
+        float: left;
         width: 50%;
         
     }
-
+    div#formulário > h1 {
+        font-weight: 2.em;
+    }
+    div#formulário > p {
+        font-size: 1.2em ;
+    }
+     
 }
 
-@media screen mi {
-    
-}
 

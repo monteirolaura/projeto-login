@@ -53,3 +53,13 @@ section#login > div#formulário {
     display: block;
     padding: 10px;
 }
+
+div#formulário > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div#formulário > p {
+    font-size: 0.8em ;
+}
